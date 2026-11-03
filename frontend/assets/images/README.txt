@@ -1,0 +1,1 @@
+Place your official Northwestern University logo here as school-logo.png. The project intentionally does not invent the official logo.

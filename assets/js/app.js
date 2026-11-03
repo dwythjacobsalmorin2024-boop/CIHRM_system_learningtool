@@ -1,0 +1,2 @@
+function filterRows(input,id){const q=input.value.toLowerCase();document.querySelectorAll('#'+id+' tbody tr').forEach(r=>r.style.display=r.innerText.toLowerCase().includes(q)?'':'none');}
+document.querySelectorAll('form').forEach(f=>f.addEventListener('submit',()=>{const b=f.querySelector('button[type="submit"],button:not([type])');if(b&&f.checkValidity()){b.dataset.old=b.innerHTML;b.innerHTML='Please wait…';b.disabled=true;}}));
